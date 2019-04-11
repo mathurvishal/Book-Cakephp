@@ -33,6 +33,7 @@ canonicalize() {
     echo "$NAME"
 }
 
+# Find a CLI version of PHP
 findCliPhp() {
     for TESTEXEC in php php-cli /usr/local/bin/php
     do
